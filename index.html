@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <form class="form">
+    <label for="day">
+      <p>day</p>
+    <input type="number" name="day" id="day" placeholder="dd" required>
+  </label>
+  <label for="month">
+    <p>month</p>
+    <input type="number" name="month" id="month" placeholder="mm" required>
+  </label>
+  <label for="year">
+    <p>year</p>
+    <input type="number" name="year" id="year" placeholder="yyyy" required>
+  </label>
+  </form>
+<div class="box">
+    <div class="line"></div>
+    <img src="/assets/images/icon-arrow.svg" alt="" class="arrow">
+  </div>
+  <div class="results">
+    <label for="years">years
+    <input type="text" name="years" id="years" placeholder="--" readonly>
+  </label>
+    <label for="months">months
+    <input type="text" name="months" id="months" placeholder="--" readonly>
+  </label>
+    <label for="days">days
+    <input type="text" name="days" id="days" placeholder="--" readonly>
+  </label>
+  </div>
+</div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/alessandro-giuzio">Alessandro Giuzio</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
