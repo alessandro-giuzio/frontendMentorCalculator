@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/alessandro-giuzio/frontendMentorCalculator)
-- Live Site URL: [Add live site URL here](https://fastidious-dusk-692246.netlify.app/)
+- Solution URL: [Solution repo](https://github.com/alessandro-giuzio/frontendMentorCalculator)
+- Live Site URL: [Live website](https://fastidious-dusk-692246.netlify.app/)
 
 ### Built with
 
